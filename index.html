@@ -4,36 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
     <title>To Do Home</title>
 </head>
 <body>
     <header>
-            <img src="https://media.istockphoto.com/vectors/green-check-mark-icon-green-tick-symbol-round-checkmark-sign-vector-vector-id1159270056?k=20&m=1159270056&s=170667a&w=0&h=ewlZtL_NAF5L4dFRHxWLmNpZtnWyvxtDQ6BEPVrvlzw=" alt="Logo"> 
+            <img class="logo" src="https://media.istockphoto.com/vectors/green-check-mark-icon-green-tick-symbol-round-checkmark-sign-vector-vector-id1159270056?k=20&m=1159270056&s=170667a&w=0&h=ewlZtL_NAF5L4dFRHxWLmNpZtnWyvxtDQ6BEPVrvlzw=" alt="Logo"> 
             <h1>To Do List..</h1>
             <nav>
                 <ul>
-                    <li><button><a href="./about.html">About us</a></button></li>
-                    <li><button>Weekly</button></li>
-                    <li><button>Monthly</button></li>
+                    <button><a href="./about.html">About us</a></button>
+                    <button>Weekly</button>
+                    <button>Monthly</button>
                 </ul>
             </nav>       
-        <!-- <button><a href="./about.html">About us</a></button>
-        <button>Weekly</button>
-        <button>Monthly</button> -->
+    
     </header>
 
     <main>
         <h3>Daily</h3>
         <h1>Sunday</h1>
 
+        <nav>
         <button>Previous </button>
         <button>Next  </button>
+        </nav>
+        
 
-        <table>
+        <table id="tasks"> 
             <tr>
-                <td><h2>Task</h2></td>
-                <td><h2>Status</h2></td>
+                <th>Task</th>
+                <th>Status</th>
             </tr>
+
             <tr>
                 <td> Engish exam </td>
                 <td>Done</td>
@@ -51,7 +54,8 @@
                 <td>Done</td>
             </tr>
         </table>
-        <button>Add task</button>
+        <nav><button>Add task</button></nav>
+        
        
 
     </main>
