@@ -33,6 +33,7 @@ header nav ul button{
 
     align-items: center;
     justify-content: center;
+    background-color:  #04AA6D;
    
 }
 /* ................................main part ..................................*/
@@ -55,10 +56,11 @@ main nav button {
     margin-left: 50px;
     margin-bottom: 10px;
     margin-top: 10px;
+    background-color:  #04AA6D;
 }
 
 #tasks {
-    width: 80%;
+    width: 50%;
     align-items: center;
     border-collapse: collapse;
 }
@@ -67,6 +69,12 @@ main nav button {
     border: 1px solid rgb(10, 10, 10);
     padding: 6px;
     text-align: center;
+  }
+  .done {
+      background-color: #77D970;
+  }
+  .notDone {
+      background-color: darkred;
   }
 
   #tasks th {
