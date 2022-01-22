@@ -1,6 +1,18 @@
 
 var userName = prompt("Please enter your name hardworker!");
-var Gender = prompt("Wlecome to our website "+userName+" ,Please enter your gender (M,F):"); //should be male or female
+var Gender = prompt("Wlecome to our website "+userName+" ,Please enter your gender (male,female):");
+ //should be male or female
+ var gender = Gender.toUpperCase(); 
+
+ if(gender!="FEMALE")
+ while (gender !="MALE" )
+ {
+     if (gender=="FEMALE")
+     break; 
+
+    var Gender = prompt("Please enter your gender (male,female):");
+    var gender = Gender.toUpperCase(); 
+ }
 var Age = prompt("Please enter your age:");
 
 if (Age<=0)
@@ -10,17 +22,17 @@ if (Age<=0)
 
 var confirmation = confirm("Do you want to skip our Welcoming message "+userName+" ?");
 
-var gender = Gender.toUpperCase(); 
+
 
 if (confirmation == false)
 {
     switch (gender)
     {
-    case "M": 
+    case "MALE": 
         alert("Welcome to our To Do List website Mr. "+userName+",\nWe hope you a great and managed time!");
         break;
 
-    case "F":
+    case "FEMALE":
         alert("Welcome to our To Do List website Ms. "+userName+" ,\nWe hope you a great and managed time!");
         break; 
 

@@ -33,6 +33,7 @@ header nav ul button{
 
     align-items: center;
     justify-content: center;
+    background-color:  #04AA6D;
    
 }
 
@@ -48,7 +49,7 @@ main h3 {
 }
 
 main img{
-    transform: scale(0.5);
+    transform: scale(0.8);
 }
 
 main p {
@@ -57,13 +58,15 @@ main p {
     justify-content: center;
 }
 .section2 {
+    margin-left: 50px ;
     height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 150px 1fr;
     margin 10px 0px ; 
+
 }
 .section2 input {
     
@@ -71,12 +74,19 @@ main p {
     height: 20px ;
     margin-top: 10px ;
     margin-bottom: 10px;
+    
+}
+#bigText {
+    height: 100px;
 }
 main button {
     width: 150px;
     height: 20px ;
     margin-top: 10px ;
     margin-bottom: 10px;
+    background-color:  #04AA6D;
+
+    
 }
 /* ................................footer part ..................................*/
 footer{
